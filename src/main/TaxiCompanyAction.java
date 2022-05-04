@@ -5,7 +5,7 @@ import java.util.*;
 
 public class TaxiCompanyAction {
 
-    final static String PATH_TO_TAXI_COMPANY_PROPS = "/resources/taxiCompany.properties";
+    final static String PATH_TO_TAXI_COMPANY_PROPS = "/src/resources/taxiCompany.properties";
 
     private static int getInputSpeedLowerBound() {
         System.out.println("*****************************");

@@ -6,8 +6,8 @@ import java.util.Properties;
 
 public class TaxiCarsList {
 
-    final static String PATH_TO_PERSON_PROPS = "/resources/person.properties";
-    final static String PATH_TO_CAR_PROPS = "/resources/car.properties";
+    final static String PATH_TO_PERSON_PROPS = "/src/resources/person.properties";
+    final static String PATH_TO_CAR_PROPS = "/src/resources/car.properties";
 
     public static ArrayList<TaxiCar> generateListOfTaxiCars() {
         Person personCarOwner;
